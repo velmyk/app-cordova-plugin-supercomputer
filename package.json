@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-useless",
+  "version": "0.0.1",
+  "description": "Cordova Useless Plugin",
+  "cordova": {
+    "id": "cordova-plugin-useless",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velmyk/cordova-plugin-useless.git"
+  },
+  "keywords": [
+    "cordova",
+    "useless",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "velmyk",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/velmyk/cordova-plugin-useless/issues"
+  },
+  "homepage": "https://github.com/velmyk/cordova-plugin-useless#readme"
+}

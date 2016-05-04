@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-useless"
+    version="0.0.1">
+
+    <name>Useless Plugin</name>
+    <description>Cordova Useless Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,useless</keywords>
+    <repo>https://github.com/velmyk/cordova-plugin-useless.git</repo>
+    <issue>https://github.com/velmyk/cordova-plugin-useless/issues</issue>
+
+    <js-module src="www/useless.js" name="notification">
+        <merges target="navigator.notification" />
+        <merges target="navigator" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+      <config-file target="config.xml" parent="/*">
+          <feature name="Useless">
+              <param name="ios-package" value="CDVUseless"/>
+          </feature>
+      </config-file>
+      <header-file src="src/ios/CDVUseless.h" />
+      <source-file src="src/ios/CDVUseless.m" />
+
+    </platform>
+
+</plugin>
