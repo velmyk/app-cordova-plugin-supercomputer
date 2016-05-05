@@ -3,7 +3,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="cordova-plugin-useless"
-    version="0.0.3">
+    version="0.0.4">
 
     <name>Useless Plugin</name>
     <description>Cordova Useless Plugin</description>
