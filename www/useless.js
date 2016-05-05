@@ -3,8 +3,15 @@ var exec = require('cordova/exec');
 module.exports = {
 
     senseOfLife: function(param) {
-
-        exec(function(result) { alert(result)}, null, "Useless", "senseOfLife", []);
-
+    	return new Promise(function(resolve, reject)  => {
+    		exec(function(result) {
+    			resolve(result);
+    		},
+    		null,
+    		"Useless",
+    		"senseOfLife",
+    		[]);
+    	});   
     }
+
 };
