@@ -3,21 +3,24 @@
 
 This plugin provides a way to do some super computing on device.
 
-This plugin defines global objects including `navigator.supercomputer`.
+This plugin defines methods on `navigator.notification` and `navigator`.
 
 Although in the global scope, they are not available until after the `deviceready` event.
 
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-        console.log(navigator.supercomputer);
+        //...
     }
+
+## Methods
+
+- *senseOfLife* - to find sense of life
+	
 
 ## Installation
 
-    cordova plugin add https://github.com/velmyk/cordova-plugin-supercomputer.git
+    cordova plugin add cordova-plugin-supercomputer
 
 ## Supported Platforms
-
-navigator.supercomputer<br />
 
 - iOS
