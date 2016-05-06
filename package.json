@@ -1,27 +1,27 @@
 {
-  "name": "cordova-plugin-useless",
-  "version": "0.0.4",
-  "description": "Cordova Useless Plugin",
+  "name": "cordova-plugin-supercomputer",
+  "version": "0.0.5",
+  "description": "Cordova Supercomputer Plugin",
   "cordova": {
-    "id": "cordova-plugin-useless",
+    "id": "cordova-plugin-supercomputer",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/velmyk/cordova-plugin-useless.git"
+    "url": "git+https://github.com/velmyk/cordova-plugin-supercomputer.git"
   },
   "keywords": [
     "cordova",
-    "useless",
+    "supercomputer",
     "ecosystem:cordova",
     "cordova-ios"
   ],
   "author": "velmyk",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/velmyk/cordova-plugin-useless/issues"
+    "url": "https://github.com/velmyk/cordova-plugin-supercomputer/issues"
   },
-  "homepage": "https://github.com/velmyk/cordova-plugin-useless#readme"
+  "homepage": "https://github.com/velmyk/cordova-plugin-supercomputer#readme"
 }

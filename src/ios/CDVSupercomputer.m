@@ -1,7 +1,7 @@
-#import "CDVUseless.h"
+#import "CDVSupercomputer.h"
 #import <Cordova/CDVPlugin.h>
 
-@implementation CDVUseless
+@implementation CDVSupercomputer
 
 - (void)senseOfLife:(CDVInvokedUrlCommand*)command
 {
@@ -12,5 +12,3 @@
 }
 
 @end
-
-

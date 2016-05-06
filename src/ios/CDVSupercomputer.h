@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVUseless : CDVPlugin
+@interface CDVSupercomputer : CDVPlugin
 
 - (void)senseOfLife:(CDVInvokedUrlCommand*)command;
 

@@ -2,17 +2,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="cordova-plugin-useless"
-    version="0.0.4">
+    id="cordova-plugin-supercomputer"
+    version="0.0.5">
 
-    <name>Useless Plugin</name>
-    <description>Cordova Useless Plugin</description>
+    <name>Supercomputer Plugin</name>
+    <description>Cordova Supercomputer Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,useless</keywords>
-    <repo>https://github.com/velmyk/cordova-plugin-useless.git</repo>
-    <issue>https://github.com/velmyk/cordova-plugin-useless/issues</issue>
+    <keywords>cordova,supercomputer</keywords>
+    <repo>https://github.com/velmyk/cordova-plugin-supercomputer.git</repo>
+    <issue>https://github.com/velmyk/cordova-plugin-supercomputer/issues</issue>
 
-    <js-module src="www/useless.js" name="notification">
+    <js-module src="www/supercomputer.js" name="notification">
         <merges target="navigator.notification" />
         <merges target="navigator" />
     </js-module>
@@ -20,12 +20,12 @@
     <!-- ios -->
     <platform name="ios">
       <config-file target="config.xml" parent="/*">
-          <feature name="Useless">
-              <param name="ios-package" value="CDVUseless"/>
+          <feature name="Supercomputer">
+              <param name="ios-package" value="CDVSupercomputer"/>
           </feature>
       </config-file>
-      <header-file src="src/ios/CDVUseless.h" />
-      <source-file src="src/ios/CDVUseless.m" />
+      <header-file src="src/ios/CDVSupercomputer.h" />
+      <source-file src="src/ios/CDVSupercomputer.m" />
 
     </platform>
 

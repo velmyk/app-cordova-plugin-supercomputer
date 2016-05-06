@@ -8,7 +8,7 @@ module.exports = {
     			resolve(result);
     		},
     		null,
-    		"Useless",
+    		"Supercomputer",
     		"senseOfLife",
     		[]);
     	});   
